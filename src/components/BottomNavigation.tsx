@@ -22,7 +22,7 @@ export const BottomNavigation = ({ activeTab, onTabChange, onAddClick }: BottomN
             {index === 1 && (
               <button
                 onClick={onAddClick}
-                className="absolute left-1/2 -translate-x-1/2 -top-6 w-14 h-14 rounded-full bg-primary shadow-ios flex items-center justify-center transform hover:scale-105 transition-transform"
+                className="absolute left-1/2 -translate-x-1/2 -top-14 w-14 h-14 rounded-full bg-primary shadow-ios flex items-center justify-center transform hover:scale-105 transition-transform"
               >
                 <Plus className="w-7 h-7 text-primary-foreground" />
               </button>

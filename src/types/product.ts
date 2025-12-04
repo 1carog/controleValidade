@@ -26,17 +26,17 @@ export interface Product {
 }
 
 export const categoryLabels: Record<ProductCategory, string> = {
-  perfume: 'Perfume',
-  moisturizer: 'Hidratante',
-  freshness: 'Frescor',
-  exfoliating: 'Esfoliante',
-  soap: 'Sabonete',
-  shampoo: 'Shampoo',
   conditioner: 'Condicionador',
-  hydration: 'Hidratação',
-  serum: 'Sérum',
-  tonic: 'Tônico',
   comb: 'Creme para pentear',
+  exfoliating: 'Esfoliante',
+  freshness: 'Frescor',
+  hydration: 'Hidratação Capilar',
+  moisturizer: 'Hidratante',
+  perfume: 'Perfume',
+  soap: 'Sabonete',
+  serum: 'Sérum',
+  shampoo: 'Shampoo',
+  tonic: 'Tônico',
   other: 'Outros',
 };
 
